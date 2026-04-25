@@ -1,0 +1,163 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║          🎉 FINANÇAS PESSOAIS PRO - GUIA PARA GERAR APK 🎉               ║
+║                                                                            ║
+║              ⚠️  VOCÊ NÃO PRECISA INSTALAR NADA NO PC!  ⚠️               ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📱 O QUE VOCÊ VAI FAZER:
+
+1. Baixar Node.js Portátil (não precisa instalar)
+2. Extrair o ZIP do projeto
+3. Abrir o Terminal
+4. Rodar 2 comandos simples
+5. Pronto! Seu APK estará pronto para instalar no celular
+
+⏱️  TEMPO TOTAL: 1-2 horas (deixa rodando)
+
+═══════════════════════════════════════════════════════════════════════════
+
+📥 PASSO 1: BAIXAR NODE.JS PORTÁTIL
+
+Acesse: https://nodejs.org/en/download/
+
+Escolha seu sistema operacional:
+
+  🪟 WINDOWS:
+     - Clique em "Windows Binary (.zip)" 
+     - Baixe a versão LTS (recomendado)
+     - Extraia em uma pasta (ex: C:\nodejs)
+
+  🍎 MAC:
+     - Clique em "macOS Binary (.tar.gz)"
+     - Baixe a versão LTS
+     - Extraia em uma pasta (ex: /Users/seu-usuario/nodejs)
+
+  🐧 LINUX:
+     - Clique em "Linux Binary (.tar.xz)"
+     - Baixe a versão LTS
+     - Extraia em uma pasta (ex: ~/nodejs)
+
+═══════════════════════════════════════════════════════════════════════════
+
+📦 PASSO 2: EXTRAIR O PROJETO
+
+1. Você recebeu: financas-pessoais-app.zip
+2. Clique com botão direito → Extrair aqui
+3. Uma pasta "financas-pessoais-app" será criada
+4. ANOTE O CAMINHO COMPLETO (você vai precisar)
+
+   Exemplo Windows: C:\Users\seu-usuario\Downloads\financas-pessoais-app
+   Exemplo Mac:     /Users/seu-usuario/Downloads/financas-pessoais-app
+   Exemplo Linux:   ~/Downloads/financas-pessoais-app
+
+═══════════════════════════════════════════════════════════════════════════
+
+🖥️  PASSO 3: ABRIR O TERMINAL
+
+  🪟 WINDOWS:
+     - Pressione: Windows + R
+     - Digite: cmd
+     - Pressione: Enter
+     - Uma janela preta vai abrir
+
+  🍎 MAC:
+     - Pressione: Cmd + Space
+     - Digite: terminal
+     - Pressione: Enter
+     - Uma janela branca vai abrir
+
+  🐧 LINUX:
+     - Pressione: Ctrl + Alt + T
+     - Ou clique com botão direito → Abrir Terminal
+
+═══════════════════════════════════════════════════════════════════════════
+
+📍 PASSO 4: NAVEGAR ATÉ A PASTA
+
+No terminal, copie e cole este comando (depois pressione Enter):
+
+  Windows:
+  cd "C:\Users\seu-usuario\Downloads\financas-pessoais-app"
+
+  Mac:
+  cd "/Users/seu-usuario/Downloads/financas-pessoais-app"
+
+  Linux:
+  cd "~/Downloads/financas-pessoais-app"
+
+(Mude "seu-usuario" e o caminho para o seu caso)
+
+═══════════════════════════════════════════════════════════════════════════
+
+🔧 PASSO 5: INSTALAR DEPENDÊNCIAS
+
+No terminal, copie e cole este comando:
+
+  npm install
+
+Pressione Enter e deixe rodar (vai levar 5-10 minutos).
+
+Quando terminar, você verá: "added X packages"
+
+═══════════════════════════════════════════════════════════════════════════
+
+🏗️  PASSO 6: GERAR O APK
+
+No terminal, copie e cole este comando:
+
+  npx eas build --platform android --local
+
+Pressione Enter e deixe rodar (vai levar 30-60 minutos).
+
+⚠️  NÃO FECHE O TERMINAL! Deixe rodando até terminar.
+
+═══════════════════════════════════════════════════════════════════════════
+
+✅ PASSO 7: ENCONTRAR O APK
+
+Quando terminar, você verá uma mensagem como:
+
+  ✅ Build successful!
+  APK saved to: ./app.apk
+
+O arquivo app.apk estará na pasta do projeto.
+
+═══════════════════════════════════════════════════════════════════════════
+
+📱 PASSO 8: INSTALAR NO CELULAR
+
+1. Copie o arquivo app.apk para seu celular (USB, email, Google Drive, etc)
+2. No celular, abra o arquivo app.apk
+3. Clique em "Instalar"
+4. Pronto! O app está instalado
+
+═══════════════════════════════════════════════════════════════════════════
+
+❓ DÚVIDAS?
+
+Leia o arquivo: GUIA_APK_PORTATIL.md
+
+Ele tem:
+- Soluções para erros comuns
+- Explicações mais detalhadas
+- Dicas de troubleshooting
+
+═══════════════════════════════════════════════════════════════════════════
+
+📚 ARQUIVOS IMPORTANTES:
+
+  LEIA_PRIMEIRO.txt ............... Este arquivo
+  GUIA_APK_PORTATIL.md ............ Guia completo e detalhado
+  MANUAL_USUARIO.md ............... Como usar o app
+  QUICK_START.md .................. Primeiros passos no app
+  financas-pessoais-app/ .......... Pasta com o projeto
+
+═══════════════════════════════════════════════════════════════════════════
+
+🎉 BOA SORTE!
+
+Se tiver qualquer dúvida, leia o GUIA_APK_PORTATIL.md
+
+═══════════════════════════════════════════════════════════════════════════
